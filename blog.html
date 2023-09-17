@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+    <script>
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector(".navbar");
+            header.classList.toggle("sticky", window.scrollY > 1);
+        })
+    </script>
+    <nav class="navbar fixed-top">
+        <div class="navitems-left">
+            <a href="main.html">Tổng quan</a>
+            <a href="service.html">Dịch vụ & Ưu đãi</a>
+            <a href="Roomandprices.html">Phòng & giá</a>
+        </div>
+        <a href="main.html"><img id="logo" src="asset/icon/lake-hill-logo.png"></a>
+        <div class="navitems-right">
+            <a href="gallery.html">Hình ảnh</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">Về chúng tôi</a>
+        </div>
+    </nav>
+    <div div style="padding-top: 170px;" class="title2">
+        <p> - Lake Hill Resort - </p>
+        <h1 class="text-white">Blog</h1>
+    </div>
+    <div class="m-0 d-flex justify-content-between align-items-center transition">
+        <div>
+            <form id="search">
+                <input type="text" required>
+                <label>Tìm kiếm</label>
+                <button><i class="fas fa-search" style="color: black;"></i></button>
+            </form>
+        </div>
+        <div class="social-search">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-pinterest"></i></a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="featured row">
+
+            <a href="">
+                <div class="featured-left col-md-8">
+                    <div class="post-body-large">
+                        <img width="100%" class="post-img-large" src="asset/blog/sunset-town-phu-quoc-00.png">
+                        <div class="post-content-large">
+                            <a class="genre-large" href="">DU LỊCH</a>
+                            <a class="title-large" href="">Sunset Town - Địa điểm du lịch Phú Quốc ngắm hoàng hôn đẹp
+                                nhất </a>
+                            <p class="info-large"><a class="user-large" href="">Lake Hill</a> - 04-01-2023</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <div class="featured-right col-md-4">
+
+                <a href="">
+                    <div class="post-body-sm1">
+                        <img width="100%" class="post-img-sm1" src="asset/blog/diem-du-lich-tam-linh-1_1675237432.jpg">
+                        <div class="post-content-sm1">
+                            <a class="genre-sm1" href="">DU LỊCH</a>
+                            <a class="title-sm1" href="">KHÁM PHÁ NHỮNG ĐỊA ĐIỂM DU LỊCH TÂM LINH | MỚI NHẤT 2023 </a>
+                            <p class="info"><a class="user-sm1" href="">Lake Hill</a> - 03-01-2023</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="post-body-sm2">
+                        <img width="100%" class="post-img-sm2"
+                            src="asset/blog/pho-co-hoi-an_1680764131_1685003841_1688006584.jpg">
+                        <div class="post-content-sm2">
+                            <a class="genre-sm2" href="">DU LỊCH</a>
+                            <a class="title-sm2" href="">Hội An - Thiên đường ẩm thực và trải nghiệm đặt phòng khách
+                                ...</a>
+                            <p class="info"><a class="user-sm2" href="">Lake Hill</a> - 22-07-2023</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="container-fluid w-100 row">
+            <!-- recent này thực chất là một container bé vì t luoi doi class vl -->
+            <div class="recent col-8 row">
+                <h3 class="recent-title">- Gần đây -</h3>
+
+                <div class="recent-post col-5">
+                    <a href="">
+                        <div class="recent-img">
+                            <img src="asset/blog/sampleimg1.jpg" width="100%">
+                        </div>
+
+                        <div class="recent-post-content">
+                            <a href="" class="recent-genre">Du lịch</a>
+                            <a href="" class="recent-post-title">Cẩm nang du lịch Quảng Ninh HOT nhất 2023</a>
+                            <p class="recent-info"><a class="recent-user" href="">Lake Hill</a> - 03-07-2023</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="recent-post col-5">
+                    <a href="">
+                        <div class="recent-img">
+                            <img src="asset/blog/sampleimg2.jpg" width="100%">
+                        </div>
+
+                        <div class="recent-post-content">
+                            <a href="" class="recent-genre">Du lịch</a>
+                            <a href="" class="recent-post-title">Khám phá những dịa điểm du lịch tâm linh MỚI NHÁT 2023</a>
+                            <p class="recent-info"><a class="recent-user" href="">Lake Hill</a> - 31-06-2023</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="recent-post col-5">
+                    <a href="">
+                        <div class="recent-img">
+                            <img src="asset/blog/sampleimg3.jpg" width="100%">
+                        </div>
+
+                        <div class="recent-post-content">
+                            <a href="" class="recent-genre">Ưu đãi & Khuyến mại</a>
+                            <a href="" class="recent-post-title">Đặt phòng khach sạn khó? Đã có Lake Hills lo | Đặt phòng ...</a>
+                            <p class="recent-info"><a class="recent-user" href="">Lake Hill</a> - 19-04-2023</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="recent-post col-5">
+                    <a href="">
+                        <div class="recent-img">
+                            <img src="asset/blog/sampleimg4.jpg" width="100%">
+                        </div>
+
+                        <div class="recent-post-content">
+                            <a href="" class="recent-genre">Du lịch</a>
+                            <a href="" class="recent-post-title">Kinh nghiệm đặt phòng khách sạn Mộc Châu - Điểm chạm ...</a>
+                            <p class="recent-info"><a class="recent-user" href="">Lake Hill</a> - 25-05-2023</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="recent-post col-5">
+                    <a href="">
+                        <div class="recent-img">
+                            <img src="asset/blog/sampleimg5.jpg" width="100%">
+                        </div>
+
+                        <div class="recent-post-content">
+                            <a href="" class="recent-genre">Du lịch</a>
+                            <a href="" class="recent-post-title">Về vói Huế mộng mơ - Đặt phòng khách sạn Huế và trải ...</a>
+                            <p class="recent-info"><a class="recent-user" href="">Lake Hill</a> - 17-12-2022</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="recent-post col-5">
+                    <a href="">
+                        <div class="recent-img">
+                            <img src="asset/blog/sampleimg6.jpg" width="100%">
+                        </div>
+
+                        <div class="recent-post-content">
+                            <a href="" class="recent-genre">Du lịch</a>
+                            <a href="" class="recent-post-title">Tận hưởng kì nghỉ tại Sài Gòn | Đặt phòng khách sạn trực ...</a>
+                            <p class="recent-info"><a class="recent-user" href="">Lake Hill</a> - 18/02/2023</p>
+                        </div>
+                    </a>
+
+                </div>
+                <a href="" class="text-black text-decoration-none">
+                    <div class="d-flex justify-content-center">
+                        <p class="more text-center">Xem thêm <img src="asset/icon/down-arrow.png" width="6%"></p>
+                    </div>
+                </a>
+                <h3 class="recent-title">- Tin tức du lịch -</h3>
+                <div class="travel-post-body row">
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/sampleimg2.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">Khám phá những dịa điểm du lịch tâm linh MỚI NHÁT 2023</a>
+                            <p><a href="">Lake Hill</a> - 23/07/2023</p>
+                        </div>
+                    </div>
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/du-lich-mua-thu-tay-bac.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">Du lịch mùa thu Tây Bắc – Khám phá vẻ đẹp của những cánh đồng thơm mùa lúa chín</a>
+                            <p><a href="">Lake Hill</a> - 12/11/2023</p>
+                        </div>
+                    </div>
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/du-lich-yongin-han-quoc.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">Du lịch Yongin Hàn Quốc - Khám phá nét văn hóa truyền thống độc đáo tại 6 điểm tham quan nổi tiếng</a>
+                            <p><a href="">Lake Hill</a> - 14/12/2022</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="text-black text-decoration-none">
+                    <div class="d-flex justify-content-center">
+                        <p class="more text-center">Xem thêm <img src="asset/icon/down-arrow.png" width="6%"></p>
+                    </div>
+                </a>
+
+                <h3 class="recent-title">- Ẩm thực -</h3>
+                <div class="travel-post-body row">
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/cuisineimg1.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">Thưởng thức món ngon quê nhà tại nhà hàng Cối Đá Phan Xích Long</a>
+                            <p><a href="">Lake Hill</a> - 29/11/2022</p>
+                        </div>
+                    </div>
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/cuisineimg2.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">Hamburger và Hamburg Steak: Minh chứng cho văn hóa ẩm thực Đông - Tây ‘tuy giống mà khác’</a>
+                            <p><a href="">Lake Hill</a> - 30/04/2023</p>
+                        </div>
+                    </div>
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/cuisineimg3.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">The LOG - Nhà hàng buffet hải sản độc đáo giữa lòng Sài Gòn</a>
+                            <p><a href="">Lake Hill</a> - 01/06/2023</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="text-black text-decoration-none">
+                    <div class="d-flex justify-content-center">
+                        <p class="more text-center">Xem thêm <img src="asset/icon/down-arrow.png" width="6%"></p>
+                    </div>
+                </a>
+
+                <h3 class="recent-title">- Dịch vụ & Ưu đãi -</h3>
+                <div class="travel-post-body row">
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/sampleimg9.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">Đặt phòng khách sạn khó? Đã có Lake Hills lo | Đặt phòng trực tuyến, không phát sinh phụ phí</a>
+                            <p><a href="">Lake Hill</a> - 15/02/2023</p>
+                        </div>
+                    </div>
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/sampleimg10.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">NHẬN ƯU ĐÃI ĐẶT PHÒNG LÊN TỚI 60% CHỈ CÓ TẠI LAKE HILLS 2023</a>
+                            <p><a href="">Lake Hill</a> - 26/08/2023</p>
+                        </div>
+                    </div>
+
+                    <div class="travel-post col-4">
+                        <div style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/sampleimg8.jpg" width="100%"></a>
+                        </div>
+                        <div class="travel-post-content">
+                            <a href="">Du lịch</a>
+                            <a href="" id="travel-post-title">Đại ma vương mạnh nhất lịch sử chuyển sinh thành dân làng A</a>
+                            <p><a href="">Lake Hill</a> - 12/04/2023</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="text-black text-decoration-none">
+                    <div class="d-flex justify-content-center">
+                        <p class="more text-center">Xem thêm <img src="asset/icon/down-arrow.png" width="6%"></p>
+                    </div>
+                </a>
+
+                <!-- holyshit holyshit solyshit holyshitborder-radius: 10px;border-radius: 10px;border-radius: 10px;border-radius: 10px;border-radius: 10px;border-radius: 10px;border-radius: 10px; -->
+                <div class="post-column">
+                    <div class="post-row row">
+                        <div class="col-5 imghover" class="col-5" style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/du-lich-bucheon-00.png" width="100%"></a>
+                        </div>
+                        <div class="post-content col-7 d-flex flex-column">
+                            <a href="" class="post-category">Du lịch</a>
+                            <a href="" class="post-title">Top 8 địa điểm du lịch Bucheon nổi tiếng nhất</a>
+                            <p class="post-desc">Bucheon là một thành phố tọa lạc ở phía tây của thủ đô Seoul, là địa điểm du lịch Gyeonggi được nhiều du khách quán tâm trong thời gian gần đây. Hàn Quốc. Mùa thu tại Bucheon thường diễn ra từ tháng 9 đến tháng 11 và được biết đến với thời tiết mát mẻ, khí hậu dễ chịu và cảnh quan thiên nhiên đẹp.</p>
+                            <p><a href="" class="post-user">Lake Hill</a>- 12/12/2022</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-column">
+                    <div class="post-row row">
+                        <div class="col-5 imghover" class="col-5" style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/diem-du-lich-tam-linh-1_1675237432.jpg" width="100%"></a>
+                        </div>
+                        <div class="post-content col-7 d-flex flex-column">
+                            <a href="" class="post-category">Du lịch</a>
+                            <a href="" class="post-title">Kinh nghiệm du lịch Đông Bắc mùa thu mới nhất</a>
+                            <p class="post-desc">Đông Bắc mùa thu đã để ấn tượng trong lòng khách du lịch. Kinh nghiệm du lịch Đông Bắc mùa thu sẽ mang đến cho bạn những thông tin hữu ích nhất, hãy tham khảo nhé.</p>
+                            <p><a href="" class="post-user">Lake Hill</a>- 03/12/2022</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-column">
+                    <div class="post-row row">
+                        <div class="col-5 imghover" class="col-5" style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/du-lich-dong-bac-mua-thu-00.png" width="100%"></a>
+                        </div>
+                        <div class="post-content col-7 d-flex flex-column">
+                            <a href="" class="post-category">Du lịch</a>
+                            <a href="" class="post-title">Đẹp nao lòng mùa thu Thụy Sĩ</a>
+                            <p class="post-desc">Được mệnh danh là “trái tim của châu Âu”, Thụy Sĩ luôn nằm trong top đầu của những quốc gia đáng sống nhất thế giới. Quả thật, Thụy Sĩ sở hữu những “thiên đường” mùa thu đẹp đến nao lòng. Hãy cùng chiêm ngưỡng những địa danh dưới đây cho hành trình khám phá sắc thu Thụy Sĩ nhé!.</p>
+                            <p><a href="" class="post-user">Lake Hill</a>- 15/11/2022</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-column">
+                    <div class="post-row row">
+                        <div class="col-5 imghover" class="col-5" style="overflow: hidden;">
+                            <a href=""><img src="asset/blog/du-lich-gapyeong-00.png" width="100%"></a>
+                        </div>
+                        <div class="post-content col-7 d-flex flex-column">
+                            <a href="" class="post-category">Du lịch</a>
+                            <a href="" class="post-title">Top 7 địa điểm du lịch Gapyeong bạn nhất định phải ghé thăm</a>
+                            <p class="post-desc">Gapyeong là một vùng nằm ở phía bắc Seoul, Hàn Quốc, nằm trong tỉnh Gyeonggi. Hãy cùng trải nghiệm du lịch Gapyeong - đến với hành trình khám phá văn hoá và thiên nhiên độc đáo.</p>
+                            <p><a href="" class="post-user">Lake Hill</a>- 02/06/2023</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="text-black text-decoration-none">
+                    <div class="d-flex justify-content-center">
+                        <p class="more text-center">Xem thêm <img src="asset/icon/down-arrow.png" width="6%"></p>
+                    </div>
+                </a>
+            </div>
+            <!-- filter: blur(50%);filter: blur(50%);filter: blur(50%);filter: blur(50%);filter: blur(50%);filter: blur(50%);filter: blur(50%);filter: blur(50%);filter: blur(50%);filter: blur(50%); -->
+            <div class="popular-body col-4">
+                <!-- popular này cũng là một container:)) -->
+                <h4 id="abcdefgh">Mạng xã hội</h4>
+                <hr>
+                <div class="follower row">
+                    <div class="facebook col-4">
+                        <i class="fab fa-facebook"></i><br><br>
+                        <span>21.2K <br> Lượt theo dõi</span>
+                    </div>
+
+                    <div class="twitter col-4">
+                        <i class="fab fa-twitter"></i><br><br>
+                        <span>10.2K <br> Lượt theo dõi</span>
+                    </div>
+
+                    <div class="pinterest col-4">
+                        <i class="fab fa-pinterest"></i><br><br>
+                        <span>8.4K <br> Lượt theo dõi</span>
+                    </div>
+                </div>
+                <h4 id="abcdefgh">Thể loại</h4>
+                <hr>
+                <div class="category">
+                    <ul>
+                        <li><a href="">Du lịch & trải nghiệm</a><span>742</span></li>
+                        <li><a href="">Đời sống văn hóa</a><span>568</span></li>
+                        <li><a href="">Ẩm thực</a><span>350</span></li>
+                        <li><a href="">Ưu đãi & khuyến mại</a><span>53</span></li>
+                    </ul>
+                </div>
+                <h3 class="recent-title">- Tổng hợp -</h3>
+                <div class="popular-card row">
+                    <div class="popular-img col-4">
+                        <img src="asset/blog/sampleimg1.jpg" width="100%">
+                    </div>
+                    <div class="popular-post-content col-8">
+                        <a class="popular-genre" href="">Du lịch</a>
+                        <a class="popular-title" href="">Cẩm nang du lịch Quảng Ninh HOT nhất 2023</a>
+                    </div>
+                </div>
+
+                <div class="popular-card row">
+                    <div class="popular-img col-4">
+                        <img src="asset/blog/sampleimg2.jpg" width="100%">
+                    </div>
+                    <div class="popular-post-content col-8">
+                        <a class="popular-genre" href="">Du lịch</a>
+                        <a class="popular-title" href="">Khám phá những dịa điểm du lịch tâm linh MỚI NHÁT 2023</a>
+                    </div>
+                </div>
+
+                <div class="popular-card row">
+                    <div class="popular-img col-4">
+                        <img src="asset/blog/sampleimg3.jpg" width="100%">
+                    </div>
+                    <div class="popular-post-content col-8">
+                        <a class="popular-genre" href="">Du lịch</a>
+                        <a class="popular-title" href="">Kinh nghiệm du lịch Huế tháng 8,9,10</a>
+                    </div>
+                </div>
+
+                <div class="popular-card row">
+                    <div class="popular-img col-4">
+                        <img src="asset/blog/sampleimg4.jpg" width="100%">
+                    </div>
+                    <div class="popular-post-content col-8">
+                        <a class="popular-genre" href="">Du lịch</a>
+                        <a class="popular-title" href="">Top 7 lễ hội mùa thu Nhật Bản náo nhiệt và đầy màu sắc</a>
+                    </div>
+                </div>
+
+                <div class="popular-card row">
+                    <div class="popular-img col-4">
+                        <img src="asset/blog/sampleimg5.jpg" width="100%">
+                    </div>
+                    <div class="popular-post-content col-8">
+                        <a class="popular-genre" href="">Du lịch</a>
+                        <a class="popular-title" href="">Kinh nghiệm du lịch Gyeonggi Hàn Quốc mùa thu chi tiết thông tin từ A tới Z</a>
+                    </div>
+                </div>
+
+                <div class="popular-card row">
+                    <div class="popular-img col-4">
+                        <img src="asset/blog/sampleimg6.jpg" width="100%">
+                    </div>
+                    <div class="popular-post-content col-8">
+                        <a class="popular-genre" href="">Du lịch</a>
+                        <a class="popular-title" href="">Hấp dẫn chùm tour Lễ 2/9, trải nghiệm dịch vụ đẳng cấp cùng Lake Hills</a>
+                    </div>
+                </div>
+
+                <div class="popular-card row">
+                    <div class="popular-img col-4">
+                        <img src="asset/blog/sampleimg7.jpg" width="100%">
+                    </div>
+                    <div class="popular-post-content col-8">
+                        <a class="popular-genre" href="">Du lịch</a>
+                        <a class="popular-title" href="">Top 6 địa điểm du lịch Đài Loan mùa thu ngắm cây thay lá</a>
+                    </div>
+                </div>
+
+                <h4 id="abcdefgh">Instagram</h4>
+                <hr>
+                <a href="">
+                    <div class="ins-img-body">
+                        <div class="col-4 ins-img">
+                            <img src="asset/blog/square1.png" width="100%">
+                        </div>
+                        <div class="col-4 ins-img">
+                            <img src="asset/blog/square2.jpg" width="100%">
+                        </div>
+                        <div class="col-4 ins-img">
+                            <img src="asset/blog/square3.png" width="100%">
+                        </div>
+                        <div class="col-4 ins-img">
+                            <img src="asset/blog/square4.png" width="100%">
+                        </div>
+                        <div class="col-4 ins-img">
+                            <img src="asset/blog/square5.jpg" width="100%">
+                        </div>
+                        <div class="col-4 ins-img">
+                            <img src="asset/blog/square6.png" width="100%">
+                        </div>
+                    </div>
+                </a>
+                <hr>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div
+        style="width: 100%; height: 150px; background-color: #ffecd9; display: flex; align-items: center; justify-content:  center;">
+      </div>
+    <footer>
+        <div class="footer-items">
+            <div id="div-gt">
+                <h3>Lake Hill</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis consequuntur nostrum dignissimos
+                </p>
+                <h3>Nhận ưu đãi</h3>
+                <form class="email">
+                    <div><input placeholder="Nhập email" type="text" required><i class="fas fa-envelope"
+                            style="color: #ffc081;"></i></div>
+                    <br>
+                    <button>Đăng ký ></button>
+                </form>
+            </div>
+            <div id="div-nav">
+                <h4>Lake Hill Resort</h4>
+                <ul>
+                    <li><a href="main.html">Tổng quan</a></li>
+                    <li><a href="service.html">Dịch vụ</a></li>
+                    <li><a href="Roomandprices.html">Hạng phòng</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">Về chúng tôi</a></li>
+                </ul>
+            </div>
+            <div id="div-contact">
+                <h4>Liên hệ với chúng tôi</h4>
+                <ul>
+                    <li><span>Email:</span> nathanelytra2k7@gmail.com</li>
+                    <li><span><i class="fas fa-phone fa-lg" style="color: #ffecd9;"></i></span> <a href=""
+                            style="padding-left: 10px;">+84 987682536</a></li>
+                    <li class="social-icon"><a href=""><i class="fab fa-facebook-f fa-lg"
+                                style="color: #ffecd9;"></i></a><a href=""><i class="fab fa-twitter fa-lg"
+                                style="color: #ffecd9;"></i></a><a href=""><i class="fab fa-pinterest fa-lg"
+                                style="color: #ffecd9;"></i></a><a href=""><i class="fab fa-instagram fa-lg"
+                                style="color: #ffecd9;"></i></a></li>
+                </ul>
+            </div>
+            <div id="div-privacy">
+                <h4>Điều khoản & Quy định</h4>
+                <ul>
+                    <li><a href="">Điều khoản chung</a></li>
+                    <li><a href="">Quy định chung</a></li>
+                    <li><a href="">Quy định về thanh toán</a></li>
+                    <li><a href="">Quy định về xác nhận thông tin đặt phòng</a></li>
+                    <li><a href="">Chính sách quyền riêng tư</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="div-copyright">
+            <p>© 2023 Lake Hill. All Rights Reserved.</p>
+            <h2>Lake Hill</h2>
+        </div>
+    </footer>
+</body>
+
+</html>

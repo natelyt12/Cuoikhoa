@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Các hạng phòng</title>
+  <link rel="stylesheet" href="Roomandprices.css">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector(".navbar");
+      header.classList.toggle("sticky", window.scrollY > 1);
+    })
+  </script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top">
+    <div class="navitems-left">
+      <a href="main.html">Tổng quan</a>
+      <a href="service.html">Dịch vụ & Ưu đãi</a>
+      <a href="Roomandprices.html">Phòng & giá</a>
+    </div>
+    <a href="main.html"><img id="logo" src="asset/icon/lake-hill-logo.png"></a>
+    <div class="navitems-right">
+      <a href="gallery.html">Hình ảnh</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">Về chúng tôi</a>
+    </div>
+  </nav>
+  <div class="title">
+    <p> - Lake Hill Resort - </p>
+    <h1 class="text-white">Các hạng phòng</h1>
+  </div>
+  <div
+    style="width: 100%; height: 150px; background-color: #ffecd9; display: flex; align-items: center; justify-content:  center;">
+    <p style="font-size: 1.2em; font-family: 'Lora', serif;"> - Chúng tôi có các hạng phòng như sau - </p>
+  </div>
+  <div class="bg-col">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/room1.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Deluxe King</h4>
+              <div class="d-flex justify-content-around mb-3 w-50">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">30m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">1 giường queen size</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Máy sấy tóc</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p>Chỉ từ <span>1.980.000VND</span> /đêm</p>
+                </div>
+                <div class="buy-right">
+                  <a href="">Chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/room2.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Deluxe Twin</h4>
+              <div class="d-flex justify-content-around mb-3 w-50">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">31m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">2 giường đơn</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Máy sấy tóc</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p>Chỉ từ <span>1.980.000VND</span> /đêm</p>
+                </div>
+                <div class="buy-right">
+                  <a href="">Chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/room3.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Family Suite</h4>
+              <div class="d-flex justify-content-around mb-3 w-75">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">64m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">2 giường đơn, 1 giường king size</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Két sắt an toàn</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p>Chỉ từ <span>2.160.000VND</span> /đêm</p>
+                </div>
+                <div class="buy-right">
+                  <a href="">Chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/room4.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Grand Suite</h4>
+              <div class="d-flex justify-content-around mb-3 w-50">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">70m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">1 giường king size</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Két sắt an toàn</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p>Chỉ từ <span>3.960.000VND</span> /đêm</p>
+                </div>
+                <div class="buy-right">
+                  <a href="">Chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/room6.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Deluxe Triple</h4>
+              <div class="d-flex justify-content-around mb-3 w-50">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">31m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">3 giường đơn</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Két sắt an toàn</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p>Chỉ từ <span>4.200.000VND</span> /đêm</p>
+                </div>
+                <div class="buy-right">
+                  <a href="">Chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/room5.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Presidental Suite</h4>
+              <div class="d-flex justify-content-around mb-3 w-50">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">165m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">1 giường king size</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                  <li>Két sắt an toàn</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Máy sấy tóc</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                  <li>Bếp và bàn ăn</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p>Chỉ từ <span>24.000.000VND</span> /đêm</p>
+                </div>
+                <div class="buy-right">
+                  <a href="">Chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/out-of-stock2.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Executive Suite</h4>
+              <div class="d-flex justify-content-around mb-3 w-75">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">64m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">1 giường queen size, 2 giường đơn</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Két sắt an toàn</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p></p>
+                </div>
+                <div class="buy-right">
+                  <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Hết phòng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/out-of-stock3.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Studio King</h4>
+              <div class="d-flex justify-content-around mb-3 w-50">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/architecture.png"
+                    width="32px">40m2</p>
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">1 giường đôi</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Máy sấy tóc</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p></p>
+                </div>
+                <div class="buy-right">
+                  <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Hết phòng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/out-of-stock4.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Executive Penthouse</h4>
+              <div class="d-flex justify-content-around mb-3 w-75">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">2 giường đơn, 2 giường queen size</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                  <li>Hồ bới mini</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Két sắt an toàn</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                  <li>Máy sấy tóc</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p></p>
+                </div>
+                <div class="buy-right">
+                  <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Hết phòng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="imgg m-0 p-0 w-100">
+              <img src="asset/Roomandprices/out-of-stock1.jpg" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Phòng Premier Penthouse</h4>
+              <div class="d-flex justify-content-around mb-3 w-75">
+                <p class="m-0 d-flex align-items-center"><img class="icon m-0" src="asset/icon/double-bed.png"
+                    width="32px">2 giường đơn, 1 giường queen size</p>
+              </div>
+              <h5 class="text-center">Tiện nghi của phòng</h5>
+              <div class="list-left d-flex w-100 justify-content-center">
+                <ul style="list-style-type: circle;">
+                  <li>Tủ quần áo</li>
+                  <li>Phòng có bồn tắm</li>
+                  <li>Đồ phòng tắm</li>
+                  <li>Vòi sen</li>
+                  <li>Két sắt an toàn</li>
+                </ul>
+                <ul style="list-style-type: circle;">
+                  <li>Máy sấy tóc</li>
+                  <li>Wifi</li>
+                  <li>Quầy bar mini</li>
+                  <li>Bàn làm việc</li>
+                  <li>Hồ bơi mini</li>
+                </ul>
+              </div>
+              <div class="w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                <div class="price-left">
+                  <p></p>
+                </div>
+                <div class="buy-right">
+                  <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Hết phòng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div style="width: 100%; height: 100px; background-color: #ffecd9;"></div>
+  <div class="services" style="width: 100%; height: 500px; background-color: #00000069;">
+    <h1>Dịch vụ</h1>
+    <p>Chúng tôi có những dịch vụ chất lượng cao như nhà hàng, hồ bơi, quán bar, phòng họp, hội nghị... chắc chắn sẽ
+      mang lại những trải nghiệm vô cùng khó quên đối với tất cả mọi người.</p>
+    <p>Vui lòng xem tất cả các dịch vụ của chúng tôi tại đây.</p>
+    <a class="sevice" href="service.html">Dịch vụ & Ưu đãi</a>
+  </div>
+  <div style="width: 100%; height: 100px; background-color: #ffecd9;"></div>
+
+  <footer>
+    <div class="footer-items">
+      <div id="div-gt">
+        <h3>Lake Hill</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis consequuntur nostrum dignissimos</p>
+        <h3>Nhận ưu đãi</h3>
+        <form class="email">
+          <div><input placeholder="Nhập email" type="text" required><i class="fas fa-envelope"
+              style="color: #ffc081;"></i></div>
+          <br>
+          <button>Đăng ký ></button>
+        </form>
+      </div>
+      <div id="div-nav">
+        <h4>Lake Hill Resort</h4>
+        <ul>
+          <li><a href="main.html">Tổng quan</a></li>
+          <li><a href="service.html">Dịch vụ</a></li>
+          <li><a href="Roomandprices.html">Hạng phòng</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">Về chúng tôi</a></li>
+        </ul>
+      </div>
+      <div id="div-contact">
+        <h4>Liên hệ với chúng tôi</h4>
+        <ul>
+          <li><span>Email:</span> nathanelytra2k7@gmail.com</li>
+          <li><span><i class="fas fa-phone fa-lg" style="color: #ffecd9;"></i></span> <a href=""
+              style="padding-left: 10px;">+84 987682536</a></li>
+          <li class="social-icon"><a href=""><i class="fab fa-facebook-f fa-lg" style="color: #ffecd9;"></i></a><a
+              href=""><i class="fab fa-twitter fa-lg" style="color: #ffecd9;"></i></a><a href=""><i
+                class="fab fa-pinterest fa-lg" style="color: #ffecd9;"></i></a><a href=""><i
+                class="fab fa-instagram fa-lg" style="color: #ffecd9;"></i></a></li>
+        </ul>
+      </div>
+      <div id="div-privacy">
+        <h4>Điều khoản & Quy định</h4>
+        <ul>
+          <li><a href="">Điều khoản chung</a></li>
+          <li><a href="">Quy định chung</a></li>
+          <li><a href="">Quy định về thanh toán</a></li>
+          <li><a href="">Quy định về xác nhận thông tin đặt phòng</a></li>
+          <li><a href="">Chính sách quyền riêng tư</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="div-copyright">
+      <p>© 2023 Lake Hill. All Rights Reserved.</p>
+      <h2>Lake Hill</h2>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

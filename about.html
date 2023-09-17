@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Về chúng tôi</title>
+    <link rel="stylesheet" href="about.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top">
+        <div class="navitems-left">
+            <a href="main.html">Tổng quan</a>
+            <a href="service.html">Dịch vụ & Ưu đãi</a>
+            <a href="Roomandprices.html">Phòng & giá</a>
+        </div>
+        <a href="main.html"><img id="logo" src="asset/icon/lake-hill-logo.png"></a>
+        <div class="navitems-right">
+            <a href="gallery.html">Hình ảnh</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">Về chúng tôi</a>
+        </div>
+    </nav>
+    <div style="padding-top: 250px;" class="title2">
+        <p> - Lake Hill Resort - </p>
+        <h1 class="text-white">Về chúng tôi</h1>
+    </div>
+    <div class="omg">
+        <img src="asset/icon/down-arrow.png">
+    </div>
+    <div class="content">
+        <div class="gioithieu">
+            <h1>- Tập đoàn Lake Hill -</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At assumenda accusantium reiciendis. Nulla
+                corporis placeat dolorum vitae quia tempora cumque tempore, reprehenderit facere, atque nostrum minima
+                magnam dicta id! Minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis molestiae optio
+                eaque quam aperiam nisi distinctio, quo eum, ipsum porro vero quis ratione iusto totam inventore
+                reprehenderit error consequatur sit?</p>
+        </div>
+        <div class="contact">
+            <div class="left">
+                <ul>
+                    <li><img src="asset/icon/location.png" width="6%"><span>1086 Hạ Long, Bãi Cháy, Thành phố Hạ Long, Quảng Ninh, Việt Nam</span></li>
+                    <li><img src="asset/icon/email.png" width="6%"><span>nathanelytra2k7@gmail.com</span></li>
+                    <li><img src="asset/icon/call.png" width="6%"><a href="">+84 987682536</a></li>
+                </ul>
+                <h4>- Liên hệ -</h4>
+                <form class="contact-form">
+                    <div class="contact-input-name">
+                        <input type="text" placeholder="Họ và tên" required>
+                        <i class="fas fa-user-circle" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="contact-input-email">
+                        <input type="text" placeholder="Email" required>
+                        <i class="fas fa-envelope" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="gender">
+                        <div><input type="radio" name="gioitinh" id="Nam"><span>Nam</span></div>
+                        <div><input type="radio" name="gioitinh" id="Nu"><span>Nữ</span></div>
+                        <div><input type="radio" name="gioitinh" id="uknown"><span>Không xác định</span></div>
+                    </div>
+                    <textarea name="message" cols="0" rows="4" placeholder="Nội dung" required></textarea>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <input type="submit" id="submit" value="Gửi liên hệ">
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d783.214732870555!2d107.01966303348821!3d20.96784511124968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a58ba185b75a9%3A0x80dd9182c08d97bc!2sLake%20Hills%20Hotel!5e0!3m2!1svi!2s!4v1692112600823!5m2!1svi!2s"
+                    width="100%" height="500px" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector(".navbar");
+            header.classList.toggle("sticky", window.scrollY > 200);
+        })
+    </script>
+</body>
+
+<footer>
+    <div class="footer-items">
+        <div id="div-gt">
+            <h3>Lake Hill</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis consequuntur nostrum dignissimos
+            </p>
+            <h3>Nhận ưu đãi</h3>
+            <form class="email">
+                <div><input placeholder="Nhập email" type="text" required><i class="fas fa-envelope"
+                        style="color: #ffc081;"></i></div>
+                <br>
+                <button>Đăng ký ></button>
+            </form>
+        </div>
+        <div id="div-nav">
+            <h4>Lake Hill Resort</h4>
+            <ul>
+                <li><a href="main.html">Tổng quan</a></li>
+                <li><a href="service.html">Dịch vụ</a></li>
+                <li><a href="Roomandprices.html">Hạng phòng</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Về chúng tôi</a></li>
+            </ul>
+        </div>
+        <div id="div-contact">
+            <h4>Liên hệ với chúng tôi</h4>
+            <ul>
+                <li><span>Email:</span> nathanelytra2k7@gmail.com</li>
+                <li><span><i class="fas fa-phone fa-lg" style="color: #ffecd9;"></i></span> <a href=""
+                        style="padding-left: 10px;">+84 987682536</a></li>
+                <li class="social-icon"><a href=""><i class="fab fa-facebook-f fa-lg" style="color: #ffecd9;"></i></a><a
+                        href=""><i class="fab fa-twitter fa-lg" style="color: #ffecd9;"></i></a><a href=""><i
+                            class="fab fa-pinterest fa-lg" style="color: #ffecd9;"></i></a><a href=""><i
+                            class="fab fa-instagram fa-lg" style="color: #ffecd9;"></i></a></li>
+            </ul>
+        </div>
+        <div id="div-privacy">
+            <h4>Điều khoản & Quy định</h4>
+            <ul>
+                <li><a href="">Điều khoản chung</a></li>
+                <li><a href="">Quy định chung</a></li>
+                <li><a href="">Quy định về thanh toán</a></li>
+                <li><a href="">Quy định về xác nhận thông tin đặt phòng</a></li>
+                <li><a href="">Chính sách quyền riêng tư</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="div-copyright">
+        <p>© 2023 Lake Hill. All Rights Reserved.</p>
+        <h2>Lake Hill</h2>
+    </div>
+</footer>
+
+</html>

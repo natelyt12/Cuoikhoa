@@ -1,0 +1,321 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+body{
+    background-color: #f8f4f0;
+    background-image: url(asset/Roomandprices/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+}
+.sticky{
+    background: #fff6ed;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.224) 0px 8px 24px;
+    color: black;
+}
+.sticky #logo{
+    filter: invert();
+}
+#logo {
+    margin-left: 20px;
+    width: 70%;
+    transition: 0.4s;
+}
+
+.navitems-left {
+    width: 35%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1em;
+}
+
+.navitems-right {
+    width: 35%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1em;
+}
+
+.navitems-left a,
+.navitems-right a,
+.sevice {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.3px;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.navitems-left a:hover,
+.navitems-right a:hover {
+    color: #f7b738;
+}
+
+.navitems-left a::after,
+.navitems-right a::after {
+    position: absolute;
+    content: "";
+    background-color: #f7b738;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navitems-left a:hover::after,
+.navitems-right a:hover::after {
+    width: 100%;
+}
+.sticky a{
+    color: black;
+}
+
+.title h1{
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 200px 0 150px 0;
+    background-color: rgba(0, 0, 0, 0.288);
+    margin-bottom: 0;
+    font-size: 3em;
+}
+.title p{
+    position: absolute;
+    top: 170px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ffecd9;
+    font-family: 'Lora', serif;
+}
+/* Container */
+.bg-col{
+    background-color: #fff7efcd;
+}
+.container{
+    padding: 40px;
+}
+.imgg{
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+    width: 540px;
+}
+.card-img-top{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.card{
+    transition: 0.5s;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.459) 0px 8px 24px;
+}
+.card h4{
+    font-family: 'Lora', serif;
+}
+.icon{
+    padding: 0px 8px
+}
+.price-left span{
+    font-weight: bold;
+    color: #f2a900;
+    font-size: 1.6em;
+}
+.price-left p{
+    padding-left: 15px;
+    display: inline;
+}
+.buy-right a{
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 87);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.buy-right a:hover{
+    background-color: #f2a900;
+}
+
+
+
+
+
+
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.services h1{
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+.services p{
+    font-family: 'Lora', serif;
+    margin: 0 200px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.sevice{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.3px;
+    padding: 0 50px;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+.sevice:hover {
+    color: #f7b738;
+}
+.sevice::after {
+    position: absolute;
+    content: "";
+    background-color: #f7b738;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.sevice:hover::after {
+    width: 100%;
+}
+
+footer {
+    background-color: #1f1000;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff7ef;
+    padding: 60px 20px 0 20px;
+    font-size: 1.1em;
+}
+
+.footer-items a {
+    text-decoration: none;
+    color: #ffc081;
+}
+
+.footer-items a:hover {
+    text-decoration: underline;
+}
+
+.footer-items ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+.footer-items li {
+    padding: 5px 0;
+}
+
+.footer-items h4 {
+    margin-left: 30px;
+}
+
+#div-gt p {
+    width: 300px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email div {
+    border: none;
+    border-bottom: 2px solid #ffc081;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px 0 3px;
+}
+
+.email input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #ffdcb9;
+    outline: none;
+}
+
+::placeholder {
+    color: #ffdcb9;
+    opacity: 0.5;
+}
+
+.email button {
+    margin: 0 80px;
+    padding: 6px 0;
+    background-color: #ffc081;
+    border: none;
+    border-radius: 20px;
+    transition-duration: 0.1s;
+}
+
+.email button:hover {
+    background-color: #ffdcb9;
+}
+.email button:active{
+    transform: scale(0.9);
+}
+
+.social-icon a {
+    padding: 0px 15px;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+
+.div-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #a8a8a8;
+    border-top: 2px solid #a8a8a8;
+    margin: 80px 90px 0 80px;
+}
